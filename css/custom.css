@@ -1,0 +1,10 @@
+.founder-img {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    object-fit: cover;
+}
+
+.display-inline {
+    display: inline-block;
+}
