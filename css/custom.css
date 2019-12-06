@@ -8,3 +8,15 @@
 .display-inline {
     display: inline-block;
 }
+
+.about-table {
+    margin: 0 auto;
+    width: 70%;
+}
+
+@media (max-width: 575.98px) {
+    .about-table {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
