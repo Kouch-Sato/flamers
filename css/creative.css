@@ -9655,7 +9655,8 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 15rem;
+  margin-top: 5rem;
+  padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.png");
   background-position: center;
@@ -9666,6 +9667,8 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
+    margin-top: 0rem;
+    padding-top: 15rem;
     height: 100vh;
     min-height: 40rem;
     padding-top: 72px;
@@ -9673,12 +9676,6 @@ header.masthead {
   }
   header.masthead p {
     font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 3.5rem;
   }
 }
 
