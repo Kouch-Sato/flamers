@@ -9676,12 +9676,6 @@ header.masthead {
   }
 }
 
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 3.5rem;
-  }
-}
-
 #portfolio .container-fluid {
   max-width: 1920px;
 }
