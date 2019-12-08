@@ -9668,7 +9668,7 @@ header.masthead {
 @media (min-width: 992px) {
   header.masthead {
     margin-top: 0rem;
-    padding-top: 15rem;
+    padding-top: 5rem;
     height: 100vh;
     min-height: 40rem;
     padding-bottom: 0;
