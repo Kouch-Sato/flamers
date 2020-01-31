@@ -33,7 +33,9 @@
       $(".navbar-brand-image").attr("src", "img/company_logo/logo_red.png");
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
-      $(".navbar-brand-image").attr("src", "img/company_logo/logo_white.png");
+      if (window.matchMedia( '(min-width: 600px)' ).matches) {
+        $(".navbar-brand-image").attr("src", "img/company_logo/logo_white.png");
+      }
     }
   };
   // Collapse now if page is not at top
