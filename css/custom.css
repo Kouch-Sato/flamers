@@ -20,3 +20,7 @@
         width: 90%;
     }
 }
+
+.navbar-brand-image {
+    margin-top: -10px;
+}
