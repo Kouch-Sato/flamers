@@ -5,6 +5,28 @@
     object-fit: cover;
 }
 
+.service_logo_image {
+    width: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .service_logo_image {
+        width: 150px;
+    }
+}
+
+.service_display_image {
+    width: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .service_display_image {
+        width: 300px;
+    }
+}
+
 .display-inline {
     display: inline-block;
 }
